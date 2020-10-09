@@ -27,7 +27,7 @@ Cara kerjanya dengan mengambil nilai dari variabel nominalDouble lalu dikalikan 
         }
 ```
 Untuk mengatasi error apabila yg di inputkan adalah text menggunakan coding berikut :
-''' csharp
+'''csharp
 private void Button_Hitung_Click(object sender, RoutedEventArgs e)
         {
             var nominalIput = InputTextBox.Text;
