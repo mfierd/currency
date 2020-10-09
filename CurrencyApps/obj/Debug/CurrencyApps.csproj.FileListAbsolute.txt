@@ -1,0 +1,15 @@
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\bin\Debug\CurrencyApps.exe.config
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\bin\Debug\CurrencyApps.exe
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\bin\Debug\CurrencyApps.pdb
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\obj\Debug\CurrencyApps.csprojAssemblyReference.cache
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\obj\Debug\MainWindow.g.cs
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\obj\Debug\App.g.cs
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\obj\Debug\CurrencyApps_MarkupCompile.cache
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\obj\Debug\CurrencyApps_MarkupCompile.lref
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\obj\Debug\MainWindow.baml
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\obj\Debug\CurrencyApps.g.resources
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\obj\Debug\CurrencyApps.Properties.Resources.resources
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\obj\Debug\CurrencyApps.csproj.GenerateResource.cache
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\obj\Debug\CurrencyApps.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\obj\Debug\CurrencyApps.exe
+C:\Users\hp\Documents\coding\CurrencyApps\CurrencyApps\obj\Debug\CurrencyApps.pdb
