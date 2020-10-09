@@ -9,13 +9,13 @@ Aplikasi ini memliki fungsi untuk mengkorversi nilai tukar dari mata uang USD ke
 ### how does it works?
 menggunakan method MainWindow
 
-''' java
+```java
   public MainWindow()
         {
             InitializeComponent();
             Currency = new CurrencyController();
         }
-'''
+```
 Logika perhitungan terdapat pada 'CurrencyController.cs' sebagai berikut :
 Cara kerjanya dengan mengambil nilai dari variabel nominalDouble lalu dikalikan dengan 15000 agar nantinya bisa mengkorversi nilai tukar mata uangnya. semisal 1USD = Rp15000
 '''csharp
@@ -25,7 +25,7 @@ Cara kerjanya dengan mengambil nilai dari variabel nominalDouble lalu dikalikan 
             var result = nominalDouble * 15000;
             return Convert.ToString(result);
         }
-'''
+```
 Untuk mengatasi error apabila yg di inputkan adalah text menggunakan coding berikut :
 ''' csharp
 private void Button_Hitung_Click(object sender, RoutedEventArgs e)
@@ -39,5 +39,5 @@ private void Button_Hitung_Click(object sender, RoutedEventArgs e)
             resultLabel.Content = result;
 
         }
-'''
+```
 pada var nominalInput akan mengambil nilai yang di input kan pada textbox, lalu pada var result akan menampilkan "Invalid" apabila inputan tidak sesuai yaitu berupa text bukan angka
