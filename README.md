@@ -41,3 +41,26 @@ private void Button_Hitung_Click(object sender, RoutedEventArgs e)
         }
 ```
 pada var nominalInput akan mengambil nilai yang di input kan pada textbox, lalu pada var result akan menampilkan "Invalid" apabila inputan tidak sesuai yaitu berupa text bukan angka
+
+#### Latihan
+1. apa yang terjadi pada percobaan 1-3?
+  - percobaan 1 yaitu memunculkan frontend dari currency apps yang dibuat tapi belum memiliki fungsi logika
+  - percobaan 2 yaitu jika memasukkan sembarang angka maka angka tersebut akan dikali kan dengan 15000 dan jika yang dimasukkan adalah huruf maka akan terjadi crash
+  - percobaan 3 yaitu jika memasukkan sembarang angka maka angka tersebut akan dikali kan dengan 15000 dan jika yang dimasukkan adalah huruf maka akan muncul tulisan "Invalid"
+2. mengapa perlu currencyControllers.cs?
+  - karena currencyController.cs merupakan logika dari programnya agar bisa berjalan semestinya yaitu bisa menghitung nilai tukar dan tujuan lainnya adalah untuk memisahkan
+    antara yang mana bagian frontend, yang mana fungsi dan yang mana logika.
+3. fungsi method isAllowed
+  - yaitu agar nilai dari nominalString bisa menggunakan boolean
+4. fungsi regex
+  - adalah konstruksi bahasa untuk mencocokkan teks berdasarkan pola tertentu
+5. Class diagram
+```java
+public partial class MainWindow : Window
+    - public MainWindow()
+    - private void Button_Hitung_Click
+```
+```java
+class CurrencyController
+  - public string usdToIdr(string nominal)
+```
